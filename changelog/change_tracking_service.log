@@ -1,0 +1,23 @@
+[2025-04-19T18:33:50.197Z] INFO: Registered table property_location for change tracking
+[2025-04-19T18:33:50.203Z] INFO: Registered table property_features for change tracking
+[2025-04-19T18:33:50.203Z] INFO: Registered table transactions for change tracking
+[2025-04-19T18:33:50.204Z] INFO: Starting change tracking scan
+[2025-04-19T18:33:50.259Z] ERROR: Error processing table property_location - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T18:33:50.296Z] ERROR: Error processing table property_features - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T18:33:50.336Z] ERROR: Error processing table transactions - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T18:33:50.338Z] INFO: Change tracking scan completed
+[2025-04-19T18:34:14.650Z] INFO: Registered table property_location for change tracking
+[2025-04-19T18:34:14.656Z] INFO: Registered table property_features for change tracking
+[2025-04-19T18:34:14.657Z] INFO: Registered table transactions for change tracking
+[2025-04-19T18:34:14.657Z] INFO: Starting change tracking scan
+[2025-04-19T18:34:14.866Z] INFO: Change tracking scan completed
+[2025-04-19T18:34:44.295Z] INFO: Registered table property_location for change tracking
+[2025-04-19T18:34:44.300Z] INFO: Registered table property_features for change tracking
+[2025-04-19T18:34:44.300Z] INFO: Registered table transactions for change tracking
+[2025-04-19T18:34:44.301Z] INFO: Starting change tracking scan
+[2025-04-19T18:34:44.597Z] INFO: Change tracking scan completed
+[2025-04-19T18:34:54.877Z] INFO: Registered table property_location for change tracking
+[2025-04-19T18:34:54.883Z] INFO: Registered table property_features for change tracking
+[2025-04-19T18:34:54.883Z] INFO: Registered table transactions for change tracking
+[2025-04-19T18:34:54.884Z] INFO: Starting change tracking scan
+[2025-04-19T18:34:55.180Z] INFO: Change tracking scan completed

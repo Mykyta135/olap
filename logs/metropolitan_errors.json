@@ -1,0 +1,32 @@
+[
+  {
+    "table": "dim_metropolitan",
+    "error": "відношення \"dim_metropolitan\" не існує",
+    "records": [
+      {
+        "metropolitan_name": "Eastern Metropolitan"
+      },
+      {
+        "metropolitan_name": "Eastern Victoria"
+      },
+      {
+        "metropolitan_name": "Northern Metropolitan"
+      },
+      {
+        "metropolitan_name": "Northern Victoria"
+      },
+      {
+        "metropolitan_name": "South-Eastern Metropolitan"
+      },
+      {
+        "metropolitan_name": "Southern Metropolitan"
+      },
+      {
+        "metropolitan_name": "Western Metropolitan"
+      },
+      {
+        "metropolitan_name": "Western Victoria"
+      }
+    ]
+  }
+]

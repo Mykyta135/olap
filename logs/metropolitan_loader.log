@@ -1,0 +1,39 @@
+[2025-04-19T13:35:21.059Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:35:21.063Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:35:21.171Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T13:36:25.906Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:36:25.907Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:36:26.002Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T13:40:29.154Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:40:29.156Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:40:29.248Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T13:41:04.653Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:41:04.654Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:41:04.720Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T13:41:14.615Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:41:14.618Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:41:14.695Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T13:41:19.904Z] INFO: Starting metropolitan dimension load
+[2025-04-19T13:41:19.906Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T13:41:19.965Z] ERROR: Unhandled error during load process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T16:11:20.652Z] INFO: Starting metropolitan dimension load
+[2025-04-19T16:11:20.653Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:11:20.730Z] INFO: Found 8 distinct metropolitan areas
+[2025-04-19T16:11:20.786Z] ERROR: Error inserting batch into dim_metropolitan - відношення "dim_metropolitan" не існує
+[2025-04-19T16:11:20.787Z] INFO: Completed with 1 errors
+[2025-04-19T16:11:20.788Z] INFO: Errors saved to logs\metropolitan_errors.json
+[2025-04-19T16:13:03.010Z] INFO: Starting metropolitan dimension load
+[2025-04-19T16:13:03.011Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:13:03.098Z] INFO: Found 8 distinct metropolitan areas
+[2025-04-19T16:13:03.168Z] INFO: Inserted 8 records into dim_metropolitan
+[2025-04-19T16:13:03.168Z] INFO: Completed successfully
+[2025-04-19T16:18:20.769Z] INFO: Starting metropolitan dimension load
+[2025-04-19T16:18:20.770Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:18:20.857Z] INFO: Found 8 distinct metropolitan areas
+[2025-04-19T16:18:20.915Z] INFO: Inserted 8 records into dim_metropolitan
+[2025-04-19T16:18:20.915Z] INFO: Completed successfully
+[2025-04-19T16:24:38.491Z] INFO: Starting metropolitan dimension load
+[2025-04-19T16:24:38.492Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:24:38.562Z] INFO: Found 8 distinct metropolitan areas
+[2025-04-19T16:24:38.722Z] INFO: Inserted 8 records into dim_metropolitan
+[2025-04-19T16:24:38.723Z] INFO: Completed successfully

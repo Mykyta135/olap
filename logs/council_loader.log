@@ -1,0 +1,19 @@
+[2025-04-19T16:11:20.789Z] INFO: Starting council dimension load
+[2025-04-19T16:11:20.790Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:11:20.794Z] INFO: Found 46 distinct council areas
+[2025-04-19T16:11:20.795Z] ERROR: Unhandled error during load process - відношення "dim_metropolitan" не існує
+[2025-04-19T16:13:03.169Z] INFO: Starting council dimension load
+[2025-04-19T16:13:03.170Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:13:03.173Z] INFO: Found 46 distinct council areas
+[2025-04-19T16:13:03.229Z] INFO: Inserted 46 records into dim_council
+[2025-04-19T16:13:03.229Z] INFO: Completed successfully
+[2025-04-19T16:18:20.916Z] INFO: Starting council dimension load
+[2025-04-19T16:18:20.916Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:18:20.919Z] INFO: Found 46 distinct council areas
+[2025-04-19T16:18:20.980Z] INFO: Inserted 46 records into dim_council
+[2025-04-19T16:18:20.980Z] INFO: Completed successfully
+[2025-04-19T16:24:38.724Z] INFO: Starting council dimension load
+[2025-04-19T16:24:38.725Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:24:38.728Z] INFO: Found 46 distinct council areas
+[2025-04-19T16:24:38.794Z] INFO: Inserted 46 records into dim_council
+[2025-04-19T16:24:38.795Z] INFO: Completed successfully

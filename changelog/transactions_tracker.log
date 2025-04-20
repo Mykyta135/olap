@@ -1,0 +1,9 @@
+[2025-04-19T18:34:14.827Z] INFO: Scanning table transactions for changes since 2025-04-19T18:33:50.204Z
+[2025-04-19T18:34:14.856Z] INFO: Found changes in transactions: 4475 inserts, 0 updates, 0 deletes
+[2025-04-19T18:34:14.866Z] INFO: Changes saved to changelog\transactions_changes_2025-04-19T18_34_14_857Z.json
+[2025-04-19T18:34:44.521Z] INFO: Scanning table transactions for changes since 2025-04-19T18:34:14.658Z
+[2025-04-19T18:34:44.582Z] INFO: Found changes in transactions: 0 inserts, 4475 updates, 0 deletes
+[2025-04-19T18:34:44.596Z] INFO: Changes saved to changelog\transactions_changes_2025-04-19T18_34_44_582Z.json
+[2025-04-19T18:34:55.107Z] INFO: Scanning table transactions for changes since 2025-04-19T18:34:44.301Z
+[2025-04-19T18:34:55.169Z] INFO: Found changes in transactions: 0 inserts, 4475 updates, 0 deletes
+[2025-04-19T18:34:55.178Z] INFO: Changes saved to changelog\transactions_changes_2025-04-19T18_34_55_170Z.json

@@ -1,0 +1,14 @@
+{
+  "lastScanTime": "2025-04-19T18:34:54.884Z",
+  "tables": {
+    "property_location": {
+      "lastScanTime": "2025-04-19T18:34:54.884Z"
+    },
+    "property_features": {
+      "lastScanTime": "2025-04-19T18:34:54.884Z"
+    },
+    "transactions": {
+      "lastScanTime": "2025-04-19T18:34:54.884Z"
+    }
+  }
+}

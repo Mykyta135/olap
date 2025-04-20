@@ -1,0 +1,117 @@
+[2025-04-19T16:48:00.916Z] INFO: Starting new full aggregation for period: 2024-04-19 to 2025-04-19
+[2025-04-19T16:48:00.982Z] ERROR: Error during aggregate calculation - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T16:48:14.277Z] INFO: Starting new full aggregation for period: 2024-04-19 to 2025-04-19
+[2025-04-19T16:48:14.353Z] INFO: Found 0 months to process in range
+[2025-04-19T16:48:14.354Z] INFO: Completed processing 0 months in 0.08 seconds
+[2025-04-19T16:48:14.354Z] INFO: Inserted: 0, Updated: 0, Errors: 0
+[2025-04-19T16:49:29.850Z] INFO: Starting new full aggregation for period: 2016-01-01 to 2016-12-31
+[2025-04-19T16:49:29.921Z] INFO: Found 11 months to process in range
+[2025-04-19T16:49:29.921Z] INFO: Processing month 2016-2 (ID: 2)
+[2025-04-19T16:49:29.983Z] INFO: Calculated 0 aggregate records for month ID: 2
+[2025-04-19T16:49:29.983Z] INFO: Successfully inserted aggregates for month ID: 2
+[2025-04-19T16:49:29.984Z] ERROR: Error during aggregate calculation - Assignment to constant variable.
+[2025-04-19T16:50:29.785Z] INFO: Starting new full aggregation for period: 2016-01-01 to 2016-12-31
+[2025-04-19T16:50:29.858Z] INFO: Found 11 months to process in range
+[2025-04-19T16:50:29.858Z] INFO: Processing month 2016-2 (ID: 2)
+[2025-04-19T16:50:29.929Z] INFO: Calculated 0 aggregate records for month ID: 2
+[2025-04-19T16:50:29.930Z] INFO: Successfully inserted aggregates for month ID: 2
+[2025-04-19T16:50:29.931Z] INFO: Progress: 9% (1/11)
+[2025-04-19T16:50:29.932Z] INFO: Processing month 2016-3 (ID: 3)
+[2025-04-19T16:50:29.937Z] INFO: Calculated 0 aggregate records for month ID: 3
+[2025-04-19T16:50:29.938Z] INFO: Successfully inserted aggregates for month ID: 3
+[2025-04-19T16:50:29.950Z] INFO: Progress: 18% (2/11)
+[2025-04-19T16:50:29.951Z] INFO: Processing month 2016-4 (ID: 4)
+[2025-04-19T16:50:29.958Z] INFO: Calculated 15 aggregate records for month ID: 4
+[2025-04-19T16:50:30.005Z] INFO: Successfully inserted aggregates for month ID: 4
+[2025-04-19T16:50:30.006Z] INFO: Progress: 27% (3/11)
+[2025-04-19T16:50:30.006Z] INFO: Processing month 2016-5 (ID: 5)
+[2025-04-19T16:50:30.013Z] INFO: Calculated 53 aggregate records for month ID: 5
+[2025-04-19T16:50:30.021Z] INFO: Successfully inserted aggregates for month ID: 5
+[2025-04-19T16:50:30.021Z] INFO: Progress: 36% (4/11)
+[2025-04-19T16:50:30.022Z] INFO: Processing month 2016-6 (ID: 6)
+[2025-04-19T16:50:30.027Z] INFO: Calculated 32 aggregate records for month ID: 6
+[2025-04-19T16:50:30.032Z] INFO: Successfully inserted aggregates for month ID: 6
+[2025-04-19T16:50:30.033Z] INFO: Progress: 45% (5/11)
+[2025-04-19T16:50:30.033Z] INFO: Processing month 2016-7 (ID: 7)
+[2025-04-19T16:50:30.037Z] INFO: Calculated 19 aggregate records for month ID: 7
+[2025-04-19T16:50:30.039Z] INFO: Successfully inserted aggregates for month ID: 7
+[2025-04-19T16:50:30.041Z] INFO: Progress: 55% (6/11)
+[2025-04-19T16:50:30.041Z] INFO: Processing month 2016-8 (ID: 8)
+[2025-04-19T16:50:30.046Z] INFO: Calculated 32 aggregate records for month ID: 8
+[2025-04-19T16:50:30.050Z] INFO: Successfully inserted aggregates for month ID: 8
+[2025-04-19T16:50:30.051Z] INFO: Progress: 64% (7/11)
+[2025-04-19T16:50:30.051Z] INFO: Processing month 2016-9 (ID: 9)
+[2025-04-19T16:50:30.055Z] INFO: Calculated 50 aggregate records for month ID: 9
+[2025-04-19T16:50:30.059Z] INFO: Successfully inserted aggregates for month ID: 9
+[2025-04-19T16:50:30.059Z] INFO: Progress: 73% (8/11)
+[2025-04-19T16:50:30.060Z] INFO: Processing month 2016-10 (ID: 10)
+[2025-04-19T16:50:30.064Z] INFO: Calculated 27 aggregate records for month ID: 10
+[2025-04-19T16:50:30.067Z] INFO: Successfully inserted aggregates for month ID: 10
+[2025-04-19T16:50:30.068Z] INFO: Progress: 82% (9/11)
+[2025-04-19T16:50:30.068Z] INFO: Processing month 2016-11 (ID: 11)
+[2025-04-19T16:50:30.072Z] INFO: Calculated 62 aggregate records for month ID: 11
+[2025-04-19T16:50:30.076Z] INFO: Successfully inserted aggregates for month ID: 11
+[2025-04-19T16:50:30.078Z] INFO: Progress: 91% (10/11)
+[2025-04-19T16:50:30.078Z] INFO: Processing month 2016-12 (ID: 12)
+[2025-04-19T16:50:30.082Z] INFO: Calculated 32 aggregate records for month ID: 12
+[2025-04-19T16:50:30.088Z] INFO: Successfully inserted aggregates for month ID: 12
+[2025-04-19T16:50:30.089Z] INFO: Progress: 100% (11/11)
+[2025-04-19T16:50:30.089Z] INFO: Completed processing 11 months in 0.30 seconds
+[2025-04-19T16:50:30.089Z] INFO: Inserted: 322, Updated: 0, Errors: 0
+[2025-04-19T16:50:58.936Z] INFO: Starting new full aggregation for period: 2016-01-01 to 2016-12-31
+[2025-04-19T16:50:59.010Z] INFO: Found 11 months to process in range
+[2025-04-19T16:50:59.011Z] INFO: Processing month 2016-2 (ID: 2)
+[2025-04-19T16:50:59.064Z] INFO: Calculated 0 aggregate records for month ID: 2
+[2025-04-19T16:50:59.065Z] INFO: Successfully inserted aggregates for month ID: 2
+[2025-04-19T16:50:59.066Z] INFO: Progress: 9% (1/11)
+[2025-04-19T16:50:59.066Z] INFO: Processing month 2016-3 (ID: 3)
+[2025-04-19T16:50:59.072Z] INFO: Calculated 0 aggregate records for month ID: 3
+[2025-04-19T16:50:59.072Z] INFO: Successfully inserted aggregates for month ID: 3
+[2025-04-19T16:50:59.076Z] INFO: Progress: 18% (2/11)
+[2025-04-19T16:50:59.076Z] INFO: Processing month 2016-4 (ID: 4)
+[2025-04-19T16:50:59.082Z] INFO: Deleted 15 existing aggregates for month ID: 4
+[2025-04-19T16:50:59.087Z] INFO: Calculated 15 aggregate records for month ID: 4
+[2025-04-19T16:50:59.141Z] INFO: Successfully inserted aggregates for month ID: 4
+[2025-04-19T16:50:59.142Z] INFO: Progress: 27% (3/11)
+[2025-04-19T16:50:59.142Z] INFO: Processing month 2016-5 (ID: 5)
+[2025-04-19T16:50:59.144Z] INFO: Deleted 53 existing aggregates for month ID: 5
+[2025-04-19T16:50:59.150Z] INFO: Calculated 53 aggregate records for month ID: 5
+[2025-04-19T16:50:59.159Z] INFO: Successfully inserted aggregates for month ID: 5
+[2025-04-19T16:50:59.160Z] INFO: Progress: 36% (4/11)
+[2025-04-19T16:50:59.160Z] INFO: Processing month 2016-6 (ID: 6)
+[2025-04-19T16:50:59.162Z] INFO: Deleted 32 existing aggregates for month ID: 6
+[2025-04-19T16:50:59.166Z] INFO: Calculated 32 aggregate records for month ID: 6
+[2025-04-19T16:50:59.171Z] INFO: Successfully inserted aggregates for month ID: 6
+[2025-04-19T16:50:59.172Z] INFO: Progress: 45% (5/11)
+[2025-04-19T16:50:59.173Z] INFO: Processing month 2016-7 (ID: 7)
+[2025-04-19T16:50:59.174Z] INFO: Deleted 19 existing aggregates for month ID: 7
+[2025-04-19T16:50:59.176Z] INFO: Calculated 19 aggregate records for month ID: 7
+[2025-04-19T16:50:59.180Z] INFO: Successfully inserted aggregates for month ID: 7
+[2025-04-19T16:50:59.183Z] INFO: Progress: 55% (6/11)
+[2025-04-19T16:50:59.183Z] INFO: Processing month 2016-8 (ID: 8)
+[2025-04-19T16:50:59.184Z] INFO: Deleted 32 existing aggregates for month ID: 8
+[2025-04-19T16:50:59.190Z] INFO: Calculated 32 aggregate records for month ID: 8
+[2025-04-19T16:50:59.195Z] INFO: Successfully inserted aggregates for month ID: 8
+[2025-04-19T16:50:59.196Z] INFO: Progress: 64% (7/11)
+[2025-04-19T16:50:59.196Z] INFO: Processing month 2016-9 (ID: 9)
+[2025-04-19T16:50:59.197Z] INFO: Deleted 50 existing aggregates for month ID: 9
+[2025-04-19T16:50:59.201Z] INFO: Calculated 50 aggregate records for month ID: 9
+[2025-04-19T16:50:59.206Z] INFO: Successfully inserted aggregates for month ID: 9
+[2025-04-19T16:50:59.207Z] INFO: Progress: 73% (8/11)
+[2025-04-19T16:50:59.207Z] INFO: Processing month 2016-10 (ID: 10)
+[2025-04-19T16:50:59.208Z] INFO: Deleted 27 existing aggregates for month ID: 10
+[2025-04-19T16:50:59.211Z] INFO: Calculated 27 aggregate records for month ID: 10
+[2025-04-19T16:50:59.214Z] INFO: Successfully inserted aggregates for month ID: 10
+[2025-04-19T16:50:59.216Z] INFO: Progress: 82% (9/11)
+[2025-04-19T16:50:59.216Z] INFO: Processing month 2016-11 (ID: 11)
+[2025-04-19T16:50:59.217Z] INFO: Deleted 62 existing aggregates for month ID: 11
+[2025-04-19T16:50:59.222Z] INFO: Calculated 62 aggregate records for month ID: 11
+[2025-04-19T16:50:59.227Z] INFO: Successfully inserted aggregates for month ID: 11
+[2025-04-19T16:50:59.228Z] INFO: Progress: 91% (10/11)
+[2025-04-19T16:50:59.228Z] INFO: Processing month 2016-12 (ID: 12)
+[2025-04-19T16:50:59.229Z] INFO: Deleted 32 existing aggregates for month ID: 12
+[2025-04-19T16:50:59.233Z] INFO: Calculated 32 aggregate records for month ID: 12
+[2025-04-19T16:50:59.238Z] INFO: Successfully inserted aggregates for month ID: 12
+[2025-04-19T16:50:59.239Z] INFO: Progress: 100% (11/11)
+[2025-04-19T16:50:59.240Z] INFO: Completed processing 11 months in 0.30 seconds
+[2025-04-19T16:50:59.240Z] INFO: Inserted: 322, Updated: 0, Errors: 0

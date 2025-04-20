@@ -1,0 +1,8 @@
+[2025-04-19T16:24:40.273Z] INFO: Starting date_dimensions dimension load
+[2025-04-19T16:24:40.273Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:24:40.276Z] INFO: Generating date dimensions from 2016-02-03 to 2017-08-11
+[2025-04-19T16:24:40.276Z] INFO: Years to process: 2016, 2017
+[2025-04-19T16:24:40.279Z] INFO: Inserted 2 records into dim_year
+[2025-04-19T16:24:40.283Z] INFO: Inserted 24 records into dim_month
+[2025-04-19T16:24:40.297Z] INFO: Inserted 556 records into dim_date
+[2025-04-19T16:24:40.298Z] INFO: Completed successfully

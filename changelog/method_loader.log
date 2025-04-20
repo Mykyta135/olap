@@ -1,0 +1,7 @@
+[2025-04-19T18:28:51.303Z] INFO: Starting load for method with 4475 records
+[2025-04-19T18:28:51.307Z] INFO: Processed 1000/4475 records
+[2025-04-19T18:28:51.308Z] INFO: Processed 2000/4475 records
+[2025-04-19T18:28:51.309Z] INFO: Processed 3000/4475 records
+[2025-04-19T18:28:51.311Z] INFO: Processed 4000/4475 records
+[2025-04-19T18:28:51.312Z] INFO: Processed 4475/4475 records
+[2025-04-19T18:28:51.313Z] INFO: Completed successfully with no errors

@@ -1,0 +1,7 @@
+[2025-04-19T18:28:49.459Z] INFO: Starting load for location_hierarchy with 4475 records
+[2025-04-19T18:28:49.875Z] INFO: Processed 1000/4475 records
+[2025-04-19T18:28:50.285Z] INFO: Processed 2000/4475 records
+[2025-04-19T18:28:50.687Z] INFO: Processed 3000/4475 records
+[2025-04-19T18:28:51.081Z] INFO: Processed 4000/4475 records
+[2025-04-19T18:28:51.283Z] INFO: Processed 4475/4475 records
+[2025-04-19T18:28:51.283Z] INFO: Completed successfully with no errors

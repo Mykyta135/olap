@@ -1,0 +1,122 @@
+[2025-04-19T16:39:21.872Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:21.935Z] ERROR: Unhandled error during transaction fact loading - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T16:39:31.885Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:31.947Z] INFO: Loading date dimension cache...
+[2025-04-19T16:39:31.958Z] INFO: Loaded 556 date entries
+[2025-04-19T16:39:31.958Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:39:31.962Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:39:31.962Z] INFO: Loading method dimension cache...
+[2025-04-19T16:39:31.966Z] INFO: Loaded 5 method entries
+[2025-04-19T16:39:31.967Z] INFO: Starting transaction fact load for date range: 2020-01-01 to 2020-03-31
+[2025-04-19T16:39:32.015Z] ERROR: Unhandled error during transaction fact loading - ���� ����� "DataStorage" �� ����
+[2025-04-19T16:39:44.227Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:44.296Z] INFO: Loading date dimension cache...
+[2025-04-19T16:39:44.304Z] INFO: Loaded 556 date entries
+[2025-04-19T16:39:44.305Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:39:44.308Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:39:44.308Z] INFO: Loading method dimension cache...
+[2025-04-19T16:39:44.313Z] INFO: Loaded 5 method entries
+[2025-04-19T16:39:44.314Z] INFO: Starting transaction fact load for date range: 2020-01-01 to 2020-03-31
+[2025-04-19T16:39:44.368Z] INFO: Total transactions in range: 0
+[2025-04-19T16:39:44.371Z] INFO: Completed processing 0 transactions in 0.00 seconds
+[2025-04-19T16:39:44.371Z] INFO: Inserted: 0, Errors: 0
+[2025-04-19T16:39:44.372Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:44.373Z] INFO: Loading date dimension cache...
+[2025-04-19T16:39:44.376Z] INFO: Loaded 556 date entries
+[2025-04-19T16:39:44.377Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:39:44.378Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:39:44.378Z] INFO: Loading method dimension cache...
+[2025-04-19T16:39:44.379Z] INFO: Loaded 5 method entries
+[2025-04-19T16:39:44.379Z] INFO: Starting transaction fact load for date range: 2020-04-01 to 2020-06-30
+[2025-04-19T16:39:44.380Z] INFO: Total transactions in range: 0
+[2025-04-19T16:39:44.381Z] INFO: Completed processing 0 transactions in 0.00 seconds
+[2025-04-19T16:39:44.382Z] INFO: Inserted: 0, Errors: 0
+[2025-04-19T16:39:44.382Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:44.382Z] INFO: Loading date dimension cache...
+[2025-04-19T16:39:44.387Z] INFO: Loaded 556 date entries
+[2025-04-19T16:39:44.389Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:39:44.390Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:39:44.391Z] INFO: Loading method dimension cache...
+[2025-04-19T16:39:44.391Z] INFO: Loaded 5 method entries
+[2025-04-19T16:39:44.395Z] INFO: Starting transaction fact load for date range: 2020-07-01 to 2020-09-30
+[2025-04-19T16:39:44.396Z] INFO: Total transactions in range: 0
+[2025-04-19T16:39:44.397Z] INFO: Completed processing 0 transactions in 0.00 seconds
+[2025-04-19T16:39:44.398Z] INFO: Inserted: 0, Errors: 0
+[2025-04-19T16:39:44.398Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:39:44.399Z] INFO: Loading date dimension cache...
+[2025-04-19T16:39:44.401Z] INFO: Loaded 556 date entries
+[2025-04-19T16:39:44.401Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:39:44.402Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:39:44.403Z] INFO: Loading method dimension cache...
+[2025-04-19T16:39:44.404Z] INFO: Loaded 5 method entries
+[2025-04-19T16:39:44.404Z] INFO: Starting transaction fact load for date range: 2020-10-01 to 2020-12-31
+[2025-04-19T16:39:44.405Z] INFO: Total transactions in range: 0
+[2025-04-19T16:39:44.406Z] INFO: Completed processing 0 transactions in 0.00 seconds
+[2025-04-19T16:39:44.406Z] INFO: Inserted: 0, Errors: 0
+[2025-04-19T16:40:15.986Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:40:16.053Z] INFO: Loading date dimension cache...
+[2025-04-19T16:40:16.065Z] INFO: Loaded 556 date entries
+[2025-04-19T16:40:16.066Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:40:16.070Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:40:16.071Z] INFO: Loading method dimension cache...
+[2025-04-19T16:40:16.074Z] INFO: Loaded 5 method entries
+[2025-04-19T16:40:16.074Z] INFO: Starting transaction fact load for date range: 2016-01-01 to 2016-03-31
+[2025-04-19T16:40:16.127Z] INFO: Total transactions in range: 11
+[2025-04-19T16:40:16.129Z] INFO: Processing batch of 11 transactions
+[2025-04-19T16:40:16.132Z] ERROR: Unhandled error during transaction fact loading - відношення "property_location" не існує
+[2025-04-19T16:42:09.343Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:42:09.403Z] INFO: Loading date dimension cache...
+[2025-04-19T16:42:09.412Z] INFO: Loaded 556 date entries
+[2025-04-19T16:42:09.412Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:42:09.415Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:42:09.415Z] INFO: Loading method dimension cache...
+[2025-04-19T16:42:09.417Z] INFO: Loaded 5 method entries
+[2025-04-19T16:42:09.419Z] INFO: Starting transaction fact load for date range: 2016-01-01 to 2016-03-31
+[2025-04-19T16:42:09.462Z] INFO: Total transactions in range: 11
+[2025-04-19T16:42:09.465Z] INFO: Processing batch of 11 transactions
+[2025-04-19T16:42:09.541Z] INFO: Inserted 11 records into fact_transactions
+[2025-04-19T16:42:09.542Z] INFO: Progress: 100% (11/11)
+[2025-04-19T16:42:09.543Z] INFO: Completed processing 11 transactions in 0.08 seconds
+[2025-04-19T16:42:09.543Z] INFO: Inserted: 11, Errors: 0
+[2025-04-19T16:42:09.544Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:42:09.545Z] INFO: Loading date dimension cache...
+[2025-04-19T16:42:09.550Z] INFO: Loaded 556 date entries
+[2025-04-19T16:42:09.551Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:42:09.554Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:42:09.554Z] INFO: Loading method dimension cache...
+[2025-04-19T16:42:09.555Z] INFO: Loaded 5 method entries
+[2025-04-19T16:42:09.556Z] INFO: Starting transaction fact load for date range: 2016-04-01 to 2016-06-30
+[2025-04-19T16:42:09.557Z] INFO: Total transactions in range: 754
+[2025-04-19T16:42:09.565Z] INFO: Processing batch of 754 transactions
+[2025-04-19T16:42:10.108Z] INFO: Inserted 754 records into fact_transactions
+[2025-04-19T16:42:10.109Z] INFO: Progress: 100% (754/754)
+[2025-04-19T16:42:10.110Z] INFO: Completed processing 754 transactions in 0.55 seconds
+[2025-04-19T16:42:10.110Z] INFO: Inserted: 754, Errors: 0
+[2025-04-19T16:42:10.111Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:42:10.112Z] INFO: Loading date dimension cache...
+[2025-04-19T16:42:10.115Z] INFO: Loaded 556 date entries
+[2025-04-19T16:42:10.116Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:42:10.117Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:42:10.118Z] INFO: Loading method dimension cache...
+[2025-04-19T16:42:10.118Z] INFO: Loaded 5 method entries
+[2025-04-19T16:42:10.118Z] INFO: Starting transaction fact load for date range: 2016-07-01 to 2016-09-30
+[2025-04-19T16:42:10.119Z] INFO: Total transactions in range: 823
+[2025-04-19T16:42:10.122Z] INFO: Processing batch of 823 transactions
+[2025-04-19T16:42:10.686Z] INFO: Inserted 823 records into fact_transactions
+[2025-04-19T16:42:10.687Z] INFO: Progress: 100% (823/823)
+[2025-04-19T16:42:10.687Z] INFO: Completed processing 823 transactions in 0.57 seconds
+[2025-04-19T16:42:10.688Z] INFO: Inserted: 823, Errors: 0
+[2025-04-19T16:42:10.690Z] INFO: No matching checkpoint found, starting fresh load
+[2025-04-19T16:42:10.691Z] INFO: Loading date dimension cache...
+[2025-04-19T16:42:10.695Z] INFO: Loaded 556 date entries
+[2025-04-19T16:42:10.696Z] INFO: Loading property type dimension cache...
+[2025-04-19T16:42:10.697Z] INFO: Loaded 3 property type entries
+[2025-04-19T16:42:10.697Z] INFO: Loading method dimension cache...
+[2025-04-19T16:42:10.697Z] INFO: Loaded 5 method entries
+[2025-04-19T16:42:10.698Z] INFO: Starting transaction fact load for date range: 2016-10-01 to 2016-12-31
+[2025-04-19T16:42:10.698Z] INFO: Total transactions in range: 906
+[2025-04-19T16:42:10.702Z] INFO: Processing batch of 906 transactions
+[2025-04-19T16:42:11.269Z] INFO: Inserted 906 records into fact_transactions
+[2025-04-19T16:42:11.270Z] INFO: Progress: 100% (906/906)
+[2025-04-19T16:42:11.271Z] INFO: Completed processing 906 transactions in 0.57 seconds
+[2025-04-19T16:42:11.272Z] INFO: Inserted: 906, Errors: 0

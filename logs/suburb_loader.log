@@ -1,0 +1,15 @@
+[2025-04-19T16:13:03.230Z] INFO: Starting suburb dimension load
+[2025-04-19T16:13:03.230Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:13:03.235Z] INFO: Found 279 distinct suburbs
+[2025-04-19T16:13:03.251Z] INFO: Inserted 279 records into dim_suburb
+[2025-04-19T16:13:03.252Z] INFO: Completed successfully
+[2025-04-19T16:18:20.981Z] INFO: Starting suburb dimension load
+[2025-04-19T16:18:20.981Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:18:20.985Z] INFO: Found 279 distinct suburbs
+[2025-04-19T16:18:20.996Z] INFO: Inserted 279 records into dim_suburb
+[2025-04-19T16:18:20.996Z] INFO: Completed successfully
+[2025-04-19T16:24:38.795Z] INFO: Starting suburb dimension load
+[2025-04-19T16:24:38.795Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:24:38.799Z] INFO: Found 279 distinct suburbs
+[2025-04-19T16:24:38.807Z] INFO: Inserted 279 records into dim_suburb
+[2025-04-19T16:24:38.808Z] INFO: Completed successfully

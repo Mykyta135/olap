@@ -1,0 +1,5 @@
+[2025-04-19T16:24:40.264Z] INFO: Starting method dimension load
+[2025-04-19T16:24:40.264Z] INFO: No checkpoint found, starting fresh load
+[2025-04-19T16:24:40.269Z] INFO: Found 5 distinct sale methods
+[2025-04-19T16:24:40.272Z] INFO: Inserted 5 records into dim_method
+[2025-04-19T16:24:40.272Z] INFO: Completed successfully

@@ -1,0 +1,4 @@
+[2025-04-19T18:28:20.558Z] INFO: Starting initial ETL process
+[2025-04-19T18:28:20.618Z] ERROR: Error running initial ETL process - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T18:28:47.764Z] INFO: Starting initial ETL process
+[2025-04-19T18:28:51.314Z] INFO: Initial ETL process completed successfully

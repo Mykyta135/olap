@@ -1,0 +1,5 @@
+[2025-04-19T18:28:20.560Z] INFO: Starting change tracking for property_location
+[2025-04-19T18:28:20.618Z] ERROR: Error tracking changes for property_location - ���������� "postgres" �� ������� �������������� �� ��������� ������
+[2025-04-19T18:28:47.765Z] INFO: Starting change tracking for property_location
+[2025-04-19T18:28:47.842Z] INFO: Found 4475 new property locations
+[2025-04-19T18:28:47.846Z] INFO: Found changes: 4475 inserts, 0 updates
