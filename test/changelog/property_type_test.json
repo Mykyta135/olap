@@ -1,0 +1,11 @@
+[
+  {
+    "type": "info",
+    "message": "Starting Property Type Dimension Test"
+  },
+  {
+    "type": "error",
+    "message": "Error in property type test",
+    "error": "error: відношення \"property_types\" не існує"
+  }
+]
