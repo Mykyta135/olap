@@ -1,0 +1,114 @@
+CREATE TABLE dim_year (
+    year_id SERIAL PRIMARY KEY,
+    year_num INTEGER NOT NULL,
+    UNIQUE(year_num)
+);
+
+CREATE TABLE dim_quarter (
+    quarter_id SERIAL PRIMARY KEY,
+    year_id INTEGER NOT NULL REFERENCES dim_year(year_id),
+    quarter_num INTEGER NOT NULL,
+    quarter_name VARCHAR(2), -- 'Q1', 'Q2', etc.
+    UNIQUE(year_id, quarter_num)
+);
+
+CREATE TABLE dim_month (
+    month_id SERIAL PRIMARY KEY,
+    year_id INTEGER NOT NULL REFERENCES dim_year(year_id), -- Direct relationship to year
+    quarter_id INTEGER NOT NULL REFERENCES dim_quarter(quarter_id), -- Relationship to quarter
+    month_num INTEGER NOT NULL,
+    month_name VARCHAR(10),
+    UNIQUE(year_id, month_num)
+);
+
+CREATE TABLE dim_date (
+    date_id SERIAL PRIMARY KEY,
+    month_id INTEGER NOT NULL REFERENCES dim_month(month_id),
+    day_num INTEGER NOT NULL, -- The specific day of the month (1-31)
+    full_date DATE NOT NULL,
+    UNIQUE(full_date)
+);
+
+-- Location dimensions with explicit hierarchy
+CREATE TABLE dim_metropolitan (
+    metropolitan_id SERIAL PRIMARY KEY,
+    metropolitan_name VARCHAR(100) NOT NULL,
+    UNIQUE(metropolitan_name)
+);
+
+CREATE TABLE dim_council (
+    council_id SERIAL PRIMARY KEY,
+    metropolitan_id INTEGER NOT NULL REFERENCES dim_metropolitan(metropolitan_id),
+    council_name VARCHAR(100) NOT NULL,
+    UNIQUE(metropolitan_id, council_name)
+);
+
+CREATE TABLE dim_suburb (
+    suburb_id SERIAL PRIMARY KEY,
+    council_id INTEGER NOT NULL REFERENCES dim_council(council_id),
+    suburb_name VARCHAR(100) NOT NULL,
+    UNIQUE(council_id, suburb_name)
+);
+
+CREATE TABLE dim_address (
+    address_id SERIAL PRIMARY KEY,
+    suburb_id INTEGER NOT NULL REFERENCES dim_suburb(suburb_id),
+    street_address VARCHAR(150) NOT NULL, -- Combined street number and name
+    previous_address_id INT REFERENCES dim_address(address_id) DEFAULT NULL,
+    is_current BOOLEAN DEFAULT TRUE,
+    UNIQUE(suburb_id, street_address)
+);
+
+-- Enforce only one "current" version per natural address (optional but recommended)
+CREATE UNIQUE INDEX uniq_current_address 
+ON dim_address(suburb_id, street_address) 
+WHERE is_current = TRUE;
+
+-- Property characteristics dimensions
+CREATE TABLE dim_property_type (
+    property_type_id SERIAL PRIMARY KEY,
+    property_type_name VARCHAR(50) NOT NULL,
+    UNIQUE(property_type_name)
+);
+
+CREATE TABLE dim_method (
+    method_id SERIAL PRIMARY KEY,
+    method_name VARCHAR(50) NOT NULL,
+    UNIQUE(method_name)
+);
+
+-- Fact table: transactions
+CREATE TABLE fact_transactions (
+    transaction_id SERIAL PRIMARY KEY,
+    date_id INTEGER NOT NULL REFERENCES dim_date(date_id),
+    address_id INTEGER NOT NULL REFERENCES dim_address(address_id),
+    property_type_id INTEGER NOT NULL REFERENCES dim_property_type(property_type_id),
+    method_id INTEGER NOT NULL REFERENCES dim_method(method_id),
+    
+    price NUMERIC(15,2),
+    year_built INTEGER,
+    building_area NUMERIC(10,2),
+    land_area NUMERIC(10,2),
+    bathroom_count INTEGER,
+    bedroom_count INTEGER,
+    garage_count INTEGER,
+    distance_to_center NUMERIC(10,2)
+);
+
+-- Fact table: monthly property performance
+CREATE TABLE fact_property_month_performance (
+    performance_id SERIAL PRIMARY KEY,
+    month_id INTEGER NOT NULL REFERENCES dim_month(month_id),
+    suburb_id INTEGER NOT NULL REFERENCES dim_suburb(suburb_id),
+    property_type_id INTEGER NOT NULL REFERENCES dim_property_type(property_type_id),
+    
+    avg_price_per_sqm NUMERIC(15,2),
+    avg_land_area_value NUMERIC(15,2),
+    avg_building_age NUMERIC(10,2),
+    avg_price NUMERIC(15,2),
+    total_sales INTEGER,
+    avg_landsize NUMERIC(10,2),
+    median_price NUMERIC(15,2),
+    
+    UNIQUE(month_id, suburb_id, property_type_id)
+);
